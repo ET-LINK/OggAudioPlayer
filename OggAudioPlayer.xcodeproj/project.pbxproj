@@ -8,16 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		FA4EE6CB22BBB129002386AF /* OggAudioPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = FA4EE6C922BBB129002386AF /* OggAudioPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FA4EE6D722BBB2E5002386AF /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA4EE6D622BBB2E5002386AF /* AudioToolbox.framework */; };
 		FA4EE6DA22BBB3A3002386AF /* OggAudioFileDecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = FA4EE6D822BBB3A3002386AF /* OggAudioFileDecoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FA4EE6DB22BBB3A3002386AF /* OggAudioFileDecoder.mm in Sources */ = {isa = PBXBuildFile; fileRef = FA4EE6D922BBB3A3002386AF /* OggAudioFileDecoder.mm */; };
 		FA4EE6DD22BBB432002386AF /* OggAudioDecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = FA4EE6DC22BBB432002386AF /* OggAudioDecoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FA4EE6E122BBB79C002386AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA4EE6E022BBB79C002386AF /* Foundation.framework */; };
 		FA4EE6E422BBBB0D002386AF /* OggVorbisAudioPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = FA4EE6E222BBBB0D002386AF /* OggVorbisAudioPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FA4EE6E522BBBB0D002386AF /* OggVorbisAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4EE6E322BBBB0D002386AF /* OggVorbisAudioPlayer.m */; };
-		FA4EE6EE22BC8CF7002386AF /* Vorbis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA4EE6EC22BC8CF7002386AF /* Vorbis.framework */; };
-		FA4EE6EF22BC8CF7002386AF /* Ogg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA4EE6ED22BC8CF7002386AF /* Ogg.framework */; };
+		FA952B5A22C1C60200DEB4B9 /* Ogg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA952B5122C1C60200DEB4B9 /* Ogg.a */; };
+		FA952B5B22C1C60200DEB4B9 /* Vorbis.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA952B5222C1C60200DEB4B9 /* Vorbis.a */; };
+		FA952B5C22C1C60200DEB4B9 /* ogg.h in Headers */ = {isa = PBXBuildFile; fileRef = FA952B5422C1C60200DEB4B9 /* ogg.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA952B5D22C1C60200DEB4B9 /* vorbisfile.h in Headers */ = {isa = PBXBuildFile; fileRef = FA952B5522C1C60200DEB4B9 /* vorbisfile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA952B5E22C1C60200DEB4B9 /* codec.h in Headers */ = {isa = PBXBuildFile; fileRef = FA952B5622C1C60200DEB4B9 /* codec.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA952B5F22C1C60200DEB4B9 /* vorbisenc.h in Headers */ = {isa = PBXBuildFile; fileRef = FA952B5722C1C60200DEB4B9 /* vorbisenc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA952B6022C1C60200DEB4B9 /* config_types.h in Headers */ = {isa = PBXBuildFile; fileRef = FA952B5822C1C60200DEB4B9 /* config_types.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA952B6122C1C60200DEB4B9 /* os_types.h in Headers */ = {isa = PBXBuildFile; fileRef = FA952B5922C1C60200DEB4B9 /* os_types.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FAE6A7A322C0A212003F7B15 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		FA4EE6C622BBB129002386AF /* OggAudioPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OggAudioPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -30,10 +46,14 @@
 		FA4EE6E022BBB79C002386AF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FA4EE6E222BBBB0D002386AF /* OggVorbisAudioPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OggVorbisAudioPlayer.h; sourceTree = "<group>"; };
 		FA4EE6E322BBBB0D002386AF /* OggVorbisAudioPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OggVorbisAudioPlayer.m; sourceTree = "<group>"; };
-		FA4EE6E822BC8C5E002386AF /* Ogg.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Ogg.framework; path = ../../../.Trash/Ogg.framework; sourceTree = "<group>"; };
-		FA4EE6EA22BC8C79002386AF /* Vorbis.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Vorbis.framework; path = ../../../.Trash/Vorbis.framework; sourceTree = "<group>"; };
-		FA4EE6EC22BC8CF7002386AF /* Vorbis.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Vorbis.framework; path = framework/Vorbis.framework; sourceTree = "<group>"; };
-		FA4EE6ED22BC8CF7002386AF /* Ogg.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Ogg.framework; path = framework/Ogg.framework; sourceTree = "<group>"; };
+		FA952B5122C1C60200DEB4B9 /* Ogg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = Ogg.a; sourceTree = "<group>"; };
+		FA952B5222C1C60200DEB4B9 /* Vorbis.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = Vorbis.a; sourceTree = "<group>"; };
+		FA952B5422C1C60200DEB4B9 /* ogg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ogg.h; sourceTree = "<group>"; };
+		FA952B5522C1C60200DEB4B9 /* vorbisfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vorbisfile.h; sourceTree = "<group>"; };
+		FA952B5622C1C60200DEB4B9 /* codec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = codec.h; sourceTree = "<group>"; };
+		FA952B5722C1C60200DEB4B9 /* vorbisenc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vorbisenc.h; sourceTree = "<group>"; };
+		FA952B5822C1C60200DEB4B9 /* config_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config_types.h; sourceTree = "<group>"; };
+		FA952B5922C1C60200DEB4B9 /* os_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = os_types.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,10 +61,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA4EE6EE22BC8CF7002386AF /* Vorbis.framework in Frameworks */,
-				FA4EE6EF22BC8CF7002386AF /* Ogg.framework in Frameworks */,
-				FA4EE6E122BBB79C002386AF /* Foundation.framework in Frameworks */,
-				FA4EE6D722BBB2E5002386AF /* AudioToolbox.framework in Frameworks */,
+				FA952B5B22C1C60200DEB4B9 /* Vorbis.a in Frameworks */,
+				FA952B5A22C1C60200DEB4B9 /* Ogg.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,6 +72,7 @@
 		FA4EE6BC22BBB129002386AF = {
 			isa = PBXGroup;
 			children = (
+				FA952B5022C1C60200DEB4B9 /* StaticLib */,
 				FA4EE6C822BBB129002386AF /* OggAudioPlayer */,
 				FA4EE6C722BBB129002386AF /* Products */,
 				FA4EE6D122BBB2CA002386AF /* Frameworks */,
@@ -85,14 +104,33 @@
 		FA4EE6D122BBB2CA002386AF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				FA4EE6ED22BC8CF7002386AF /* Ogg.framework */,
-				FA4EE6EA22BC8C79002386AF /* Vorbis.framework */,
-				FA4EE6E822BC8C5E002386AF /* Ogg.framework */,
-				FA4EE6EC22BC8CF7002386AF /* Vorbis.framework */,
 				FA4EE6E022BBB79C002386AF /* Foundation.framework */,
 				FA4EE6D622BBB2E5002386AF /* AudioToolbox.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA952B5022C1C60200DEB4B9 /* StaticLib */ = {
+			isa = PBXGroup;
+			children = (
+				FA952B5122C1C60200DEB4B9 /* Ogg.a */,
+				FA952B5222C1C60200DEB4B9 /* Vorbis.a */,
+				FA952B5322C1C60200DEB4B9 /* Headers */,
+			);
+			path = StaticLib;
+			sourceTree = "<group>";
+		};
+		FA952B5322C1C60200DEB4B9 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				FA952B5422C1C60200DEB4B9 /* ogg.h */,
+				FA952B5522C1C60200DEB4B9 /* vorbisfile.h */,
+				FA952B5622C1C60200DEB4B9 /* codec.h */,
+				FA952B5722C1C60200DEB4B9 /* vorbisenc.h */,
+				FA952B5822C1C60200DEB4B9 /* config_types.h */,
+				FA952B5922C1C60200DEB4B9 /* os_types.h */,
+			);
+			path = Headers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -102,9 +140,15 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA4EE6DD22BBB432002386AF /* OggAudioDecoder.h in Headers */,
 				FA4EE6DA22BBB3A3002386AF /* OggAudioFileDecoder.h in Headers */,
+				FA952B6122C1C60200DEB4B9 /* os_types.h in Headers */,
+				FA952B5E22C1C60200DEB4B9 /* codec.h in Headers */,
+				FA952B5F22C1C60200DEB4B9 /* vorbisenc.h in Headers */,
+				FA952B5C22C1C60200DEB4B9 /* ogg.h in Headers */,
+				FA952B6022C1C60200DEB4B9 /* config_types.h in Headers */,
+				FA952B5D22C1C60200DEB4B9 /* vorbisfile.h in Headers */,
 				FA4EE6CB22BBB129002386AF /* OggAudioPlayer.h in Headers */,
+				FA4EE6DD22BBB432002386AF /* OggAudioDecoder.h in Headers */,
 				FA4EE6E422BBBB0D002386AF /* OggVorbisAudioPlayer.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -120,6 +164,7 @@
 				FA4EE6C222BBB129002386AF /* Sources */,
 				FA4EE6C322BBB129002386AF /* Frameworks */,
 				FA4EE6C422BBB129002386AF /* Resources */,
+				FAE6A7A322C0A212003F7B15 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -305,6 +350,7 @@
 		FA4EE6CF22BBB129002386AF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEAD_CODE_STRIPPING = NO;
@@ -319,14 +365,21 @@
 				);
 				INFOPLIST_FILE = OggAudioPlayer/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/framework",
+					"$(PROJECT_DIR)/StaticLib",
+				);
 				LINK_WITH_STANDARD_LIBRARIES = YES;
 				MACH_O_TYPE = mh_dylib;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.entertech.OggAudioPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -337,6 +390,7 @@
 		FA4EE6D022BBB129002386AF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEAD_CODE_STRIPPING = NO;
@@ -351,14 +405,20 @@
 				);
 				INFOPLIST_FILE = OggAudioPlayer/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/framework",
+					"$(PROJECT_DIR)/StaticLib",
+				);
 				LINK_WITH_STANDARD_LIBRARIES = YES;
 				MACH_O_TYPE = mh_dylib;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.entertech.OggAudioPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;

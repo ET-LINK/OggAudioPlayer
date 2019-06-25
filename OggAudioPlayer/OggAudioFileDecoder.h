@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <Vorbis/vorbisfile.h>
+#import "vorbisfile.h"
 #import "OggAudioDecoder.h"
 
 NS_ASSUME_NONNULL_BEGIN
