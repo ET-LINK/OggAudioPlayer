@@ -64,7 +64,7 @@
 
 - (BOOL)readBuffer:(AudioQueueBufferRef)pBuffer
 {
-    OGGTrace();
+    //OGGTrace();
     int bigEndian = 0;
     int wordSize = OGG_VORBIS_WORDSIZE;
     int signedSamples = 1;
